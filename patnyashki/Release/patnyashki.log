@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\C++\git\patnyashki\lesson1\patnyashki\src\slintfile.h(5,10): error C1083: Не удается открыть файл включение: slint.h: No such file or directory,
+  (компиляция исходного файла "src/main.cpp")
+  

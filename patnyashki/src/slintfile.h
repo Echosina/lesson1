@@ -21,7 +21,7 @@ class Cell {
 public:
     static int created;
 
-    int number;
+    int number=-1;
     int posX;
     int posY;
     friend auto operator== (const class Cell& a, const class Cell& b) -> bool = default;
@@ -29,6 +29,10 @@ public:
     Cell() = default;
     Cell(const int& n) {
         number = n;
+    }
+    Cell(const int& x, const int& y) {
+        posX = x;
+        posY = y;
     }
 };
 
